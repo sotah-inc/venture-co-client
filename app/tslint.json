@@ -1,10 +1,5 @@
 {
   "extends": "@blueprintjs/tslint-config",
-  "linterOptions": {
-    "exclude": [
-      "./src/migrations/*.ts"
-    ]
-  },
   "rules": {
     "arrow-parens": [
       true,
@@ -27,6 +22,7 @@
       }
     },
     "no-string-literal": false,
+    "no-submodule-imports": false,
     "ordered-imports": true,
     "prettier": {
       "options": {
