@@ -10,7 +10,7 @@ COPY ./app /srv/app
 WORKDIR /srv/app
 
 # copying in built app
-COPY --from=ihsw/sotah-api/build /srv/app/build ./build
-COPY --from=ihsw/sotah-api/build /srv/app/node_modules ./node_modules
+COPY --from=ihsw/sotah-client/build /srv/app/build ./build
+COPY --from=ihsw/sotah-client/build /srv/app/node_modules ./node_modules
 
 CMD ["npm", "start", "-s"]
