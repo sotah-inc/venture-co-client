@@ -13,4 +13,4 @@ WORKDIR /srv/app
 COPY --from=ihsw/sotah-client/build /srv/app/build ./build
 COPY --from=ihsw/sotah-client/build /srv/app/node_modules ./node_modules
 
-CMD ["npm", "start", "-s"]
+CMD ["npm", "run", "-s", "start-dev"]
