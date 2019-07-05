@@ -19,6 +19,7 @@
     "start-dev": "serve -s -l tcp://0.0.0.0:$PORT -c ./serve.json",
     "debug": "react-scripts start",
     "build": "react-scripts build",
+    "gcp-build": "npm run -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
