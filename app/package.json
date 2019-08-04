@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@sotah-inc/client": "^1.0.18",
+    "@sotah-inc/client": "^1.0.19",
     "@types/jest": "24.0.16",
     "@types/node": "12.6.9",
     "@types/react": "16.8.24",
@@ -18,9 +18,8 @@
     "start": "serve -s -l tcp://localhost:$PORT -c ./serve.json",
     "start-dev": "serve -s -l tcp://0.0.0.0:$PORT -c ./serve.json",
     "debug": "react-scripts start",
-    "gcp-build": "react-scripts build",
-    "build": "react-scripts build",
     "gcp-build": "npm run -s build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
